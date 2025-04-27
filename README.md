@@ -20,6 +20,7 @@ This project is built using **HTML** and **CSS**, showcasing my skills, experien
  ┃ ┗ 📄 index.css
  ┣ 📂 resume
  ┃ ┗ 📄 Resume.pdf 
+ ┣ 📄 README.md
  ┗ 📄 index.html
  ```
 
