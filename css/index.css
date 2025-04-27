@@ -50,3 +50,21 @@ body {
     margin-top: 40px;
   }
   
+
+  .project {
+    margin: 10px 0;
+  }
+  .extra-projects {
+    display: none; /* Hidden initially */
+  }
+  .see-more {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    
+  }
+
+  .see-more-container {
+    text-align: right; /* Moves the link to the right */
+    margin-top: 10px; /* Optional: space from projects */
+  }

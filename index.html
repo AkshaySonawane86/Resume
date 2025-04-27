@@ -83,8 +83,19 @@ data dynamically, improving overall performance.
           </li>
       </ul>
       <a href="https://github.com/AkshaySonawane86/EMS" target="_blank">View on GitHub</a>
+
     </div>
     <!-- Add more if needed -->
+    <div class="extra-projects" id="moreProjects">
+      <div class="project">Project 3</div>
+      <div class="project">Project 4</div>
+      <div class="project">Project 5</div>
+    </div>
+  
+    <!-- See more / See less link -->
+    <div class="see-more-container">
+      <a class="see-more" id="toggleButton" onclick="toggleProjects()">See More</a>
+    </div>
   </section>
 
   <section id="resume">
@@ -102,6 +113,21 @@ data dynamically, improving overall performance.
   <footer>
     <p>© 2025 Akshay Sonawane. All rights reserved.</p>
   </footer>
+
+  <script>
+    function toggleProjects() {
+      const moreProjects = document.getElementById("moreProjects");
+      const toggleButton = document.getElementById("toggleButton");
+    
+      if (moreProjects.style.display === "none" || moreProjects.style.display === "") {
+        moreProjects.style.display = "block";
+        toggleButton.textContent = "See Less";
+      } else {
+        moreProjects.style.display = "none";
+        toggleButton.textContent = "See More";
+      }
+    }
+    </script>
 
 </body>
 </html>
