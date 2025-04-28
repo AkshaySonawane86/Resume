@@ -13,8 +13,8 @@ This project is built using **HTML** and **CSS**, showcasing my skills, experien
 1. Download or clone the repository.
 2. Open the `index.html` file in your browser.
 
-```
 ## 📂 Folder Structure
+```
 📂 Resume
  ┣ 📂 css
  ┃ ┗ 📄 index.css

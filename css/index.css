@@ -55,7 +55,7 @@ body {
     margin: 10px 0;
   }
   .extra-projects {
-    display: none; /* Hidden initially */
+    display: none; 
   }
   .see-more {
     color: blue;
@@ -65,6 +65,6 @@ body {
   }
 
   .see-more-container {
-    text-align: right; /* Moves the link to the right */
-    margin-top: 10px; /* Optional: space from projects */
+    text-align: right; 
+    margin-top: 10px; 
   }
