@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
     background-color: #f5f5f5;
     color: #333;
   }
@@ -31,6 +32,20 @@ body {
   #about p
   {
     text-align: justify;
+  }
+
+  #skills div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid #000; */
+    height: 30px;
+  }
+
+  #experience div{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
   }
 
   #projects ul
@@ -68,3 +83,21 @@ body {
     text-align: right; 
     margin-top: 10px; 
   }
+
+  p, ul, li {
+  font-size: 16px;
+  /* font-weight: 600; */
+}
+
+@media (max-width: 768px) {
+  p, ul, li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  p, ul, li {
+    font-size: 12px;
+  }
+}
+
